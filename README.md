@@ -2,7 +2,7 @@
 
 ## About 
 
-A sample loop drum beat programmed in Sonic Pi. 
+A sample beat consisting of the cymbal, kick drum and snare drum. 
 
 ## Implementation
 
