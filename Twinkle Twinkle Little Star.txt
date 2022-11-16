@@ -1,0 +1,61 @@
+# Welcome to Sonic Pi!
+
+use_bpm 90
+
+define :firstline do
+  play :G
+  sleep 0.5
+  play :G
+  sleep 0.5
+  play :D5
+  sleep 0.5
+  play :D5
+  sleep 0.5
+  play :E5
+  sleep 0.5
+  play :E5
+  sleep 0.5
+  play :D5
+  sleep 1
+end
+
+define :secondline do
+  play :C5
+  sleep 0.5
+  play :C5
+  sleep 0.5
+  play :B
+  sleep 0.5
+  play :B
+  sleep 0.5
+  play :A
+  sleep 0.5
+  play :A
+  sleep 0.5
+  play :G
+  sleep 1
+end
+
+define :thirdline do
+  play :D5
+  sleep 0.5
+  play :D5
+  sleep 0.5
+  play :C5
+  sleep 0.5
+  play :C5
+  sleep 0.5
+  play :B
+  sleep 0.5
+  play :B
+  sleep 0.5
+  play :A
+  sleep 1
+end
+
+firstline
+secondline
+thirdline
+thirdline
+firstline
+secondline
