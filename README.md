@@ -1,9 +1,9 @@
-# Loop Drum Beat
+# Sonic Pi Projects
 
-## About 
+## About
 
-A sample beat consisting of the cymbal, kick drum and snare drum. 
+A set of Sonic Pi beats and songs.
 
 ## Implementation
 
-Run `Loop Drum Beat.txt` in Sonic Pi. Enjoy!
+Run `[File_Name.txt]` in Sonic Pi. Enjoy!
