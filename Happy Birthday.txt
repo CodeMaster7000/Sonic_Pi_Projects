@@ -1,0 +1,41 @@
+# Welcome to Sonic Pi!
+
+use_bpm 120
+
+define :play_note do |note, duration|
+  play note
+  sleep duration
+end
+
+define :happy_birthday do
+  play_note :C, 0.5
+  play_note :C, 0.5
+  play_note :D, 1
+  play_note :C, 1
+  play_note :F, 1
+  play_note :E, 2
+
+  play_note :C, 0.5
+  play_note :C, 0.5
+  play_note :D, 1
+  play_note :C, 1
+  play_note :G, 1
+  play_note :F, 2
+
+  play_note :C, 0.5
+  play_note :C, 0.5
+  play_note :C5, 1
+  play_note :A, 1
+  play_note :F, 1
+  play_note :E, 1
+  play_note :D, 1
+
+  play_note :Bb, 0.5
+  play_note :Bb, 0.5
+  play_note :A, 1
+  play_note :F, 1
+  play_note :G, 1
+  play_note :F, 2
+end
+
+happy_birthday
